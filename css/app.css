@@ -1,0 +1,60 @@
+/* project */
+.app {
+    margin-top: 60px;
+    width: 75%;
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+#app {
+    width: 300px;
+    margin: 0px auto;
+
+}
+
+#app h3 {
+    font-size: 1.1em;
+    margin-bottom: 0px;
+    padding: 0.3em;
+    background: #4ac;
+    color: white;
+    text-align: center;
+}
+
+#app table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+#app table td {
+    font-size: 1em;
+    padding: 0.5em;
+
+}
+
+#app table td:last-child {
+    text-align: right;
+}
+
+#app table tr:nth-child(even) {
+    background-color: white;
+}
+
+#app table tr:hover {
+    background-color: #4ac;
+    color: white;
+    cursor: pointer;
+}
